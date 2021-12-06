@@ -32,7 +32,7 @@ const App = () => {
       
       <form onSubmit={getSearch}className="search-form">
         <input
-          placeholder={query}
+          placeholder={`... ${query}`}
           className="search-bar" 
           type="text" 
           value={search} 

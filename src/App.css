@@ -47,6 +47,7 @@ h1{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  overflow: auto;
 }
 
 .recipe{
@@ -69,13 +70,12 @@ h1{
 }
 
 @media (max-width: 750px){
+  .recipe {
+    width: 60%;
+  }
   .recipe img{
     max-width: 100%;  
     height: auto;  
-  }
-  
-  .recipe h1{
-    font-size: 1.1em;
   }
 }
 
